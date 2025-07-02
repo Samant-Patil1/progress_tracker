@@ -1,5 +1,14 @@
 // Subject data with all chapters - arranged in exam order
 const subjects = {
+    art_composition: {
+        name: "🎨 Art (Composition/Applied Art)",
+        examDate: "Friday, 4 July 2025",
+        chapters: [
+            "Still Life (Paper-1) - Group of Geometric Shapes",
+            "Composition (Paper-3) - Human Figure with Design Principles",
+            "2D Design with Principles of Design"
+        ]
+    },
     physics: {
         name: "⚛️ Physics",
         examDate: "Monday, 7 July 2025",
@@ -57,6 +66,15 @@ const subjects = {
             "Values and Data Types",
             "Operators in Java",
             "Input in Java"
+        ]
+    },
+    art1: {
+        name: "🎨 Art 1",
+        examDate: "Thursday, 10 July 2025",
+        chapters: [
+            "Still Life Drawing Techniques",
+            "Shading and Perspective",
+            "Composition and Layout"
         ]
     },
     biology: {
