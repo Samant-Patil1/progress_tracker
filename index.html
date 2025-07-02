@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade 9 FA1 Progress Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="confetti-container" id="confettiContainer"></div>
+    
+    <div class="container">
+        <header>
+            <h1>🎯 Grade 9 FA1 Progress Tracker</h1>
+            <div class="exam-schedule">
+                <h2>📅 Exam Schedule</h2>
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Subject 1</th>
+                            <th>Time</th>
+                            <th>Subject 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Saturday, 5 July 2025</td>
+                            <td colspan="4" class="study-day">📚 Study Day - No Exams</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday, 6 July 2025</td>
+                            <td colspan="4" class="study-day">📚 Study Day - No Exams</td>
+                        </tr>
+                        <tr>
+                            <td>Monday, 7 July 2025</td>
+                            <td>8:45-10:00</td>
+                            <td>Physics</td>
+                            <td>10:45-12:00</td>
+                            <td>English Literature</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday, 8 July 2025</td>
+                            <td></td>
+                            <td></td>
+                            <td>10:45-12:00</td>
+                            <td>History/Civics</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday, 9 July 2025</td>
+                            <td>8:45-10:00</td>
+                            <td>Chemistry</td>
+                            <td>10:45-12:00</td>
+                            <td>English Language</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday, 10 July 2025</td>
+                            <td>8:45-10:00</td>
+                            <td>Computer Applications</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Friday, 11 July 2025</td>
+                            <td>8:30-9:45</td>
+                            <td>Biology</td>
+                            <td>10:15-12:00</td>
+                            <td>2nd Language (Kannada)</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday, 12 July 2025</td>
+                            <td colspan="4" class="study-day">📚 Study Day - No Exams</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday, 13 July 2025</td>
+                            <td colspan="4" class="study-day">📚 Study Day - No Exams</td>
+                        </tr>
+                        <tr>
+                            <td>Monday, 14 July 2025</td>
+                            <td>8:30-10:15</td>
+                            <td>Math</td>
+                            <td>10:45-12:00</td>
+                            <td>Geography</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </header>
+
+        <main>
+            <div class="progress-overview">
+                <h2>📊 Overall Progress</h2>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number" id="totalCompleted">0</span>
+                        <span class="stat-label">Chapters Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="totalProgress">0%</span>
+                        <span class="stat-label">Overall Progress</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="readyForExam">0</span>
+                        <span class="stat-label">Ready for Exam</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="examsCompleted">0</span>
+                        <span class="stat-label">Exams Completed</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subjects-container" id="subjectsContainer">
+                <!-- Subjects will be loaded here -->
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
